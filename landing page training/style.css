@@ -1,0 +1,199 @@
+.containerr{
+    
+    position: relative;
+    width: 100%;
+    height: auto; /* Adjust the height as needed */
+    background-image: url( './images/bg-hero-desktop.jpg' );
+    background-repeat: no-repeat;
+    background-size: cover ;
+    
+    
+}
+.left {
+    display:inline-block;
+    position: absolute;
+    left: 5%; /* Adjust the left position as needed */
+    top: 10%; /* Vertically center the element */
+    transform: translateY(-50%); /* Vertically center the element */
+    
+    
+}
+
+.right {
+    display: inline-block;
+    position: absolute;
+    right: 10px; /* Adjust the right position as needed */
+    top: 10%; /* Vertically center the element */
+    transform: translateY(-50%); /* Vertically center the element */
+    right: 5%;
+    
+}
+
+.top{
+    width: 100%;
+    height: 160px;
+}
+
+
+/* .btn-light{
+    border-radius: 300px;
+    background-color: antiquewhite;
+} */
+
+
+
+.title{
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr 1fr));
+    justify-items: start; */
+    display: flex;
+
+}
+
+
+.title:last-child{
+    margin-right: auto;
+    padding-right:30px
+}
+
+
+.title2{
+    padding-left: 30px;
+    padding-top: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#title{
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-right: 30px;
+}
+
+
+.btn-xl{
+    width: 300px;
+    height: 50px;
+}
+
+
+.btn.getbtn{
+    background-color: #F70073;
+    color: beige;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 850px){
+    .title{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(850px, 1fr 1fr));
+        grid-gap: 30px;
+    }
+
+    img{
+        width:100%;
+        padding-left: 10px;
+    }
+  
+
+}
+
+
+.section{
+    /* width: fit-content; */
+    display: grid;
+    grid-template-columns: 100% ;
+    padding: 5% 5%;
+    grid-column-start: 2;
+    grid-gap: 50px;
+    
+   
+
+}
+
+
+
+
+.cards{
+    display:flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+   
+    padding: 5% 5%;
+    border: grey 0.1px solid;
+    border-radius: 10px;
+     
+}
+
+.card2{
+    display:flex;
+    flex-direction: row;
+    align-items: right;
+    justify-content: center;
+    padding: 5% 5%;
+    border: grey 0.5px solid;
+    
+    
+     
+}
+
+
+.cards_txt2{
+    padding-left: 10%;
+}
+
+.cards_img img {
+    max-width: 100%; /* Ensure the image doesn't overflow its container */
+    width: 300px;
+    max-height: auto;
+    margin-bottom: 10px; /* Add some spacing between image and text */
+}
+
+
+
+footer{
+    width: 100%;
+    background-color: rgb(30,48,80);
+    
+}
+.mt-5{
+    padding-top: 10%;
+}
+
+.last{
+    background-color: #121313;
+    
+}
+
+.copy{
+    color:#6C757D
+}
+
+.final p:hover{
+    color: #22d800;
+    text-decoration: none;
+}
+
+.final p a:hover{
+    color: #22d800;
+    text-decoration: none;
+}
+
+.copy:hover{
+    color: #22d800;
+    text-decoration: none;
+}
+
+.final h6:hover{
+    color: #22d800;
+}
+
+.copyright{
+    background-color: #121313;
+}
